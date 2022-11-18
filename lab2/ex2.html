@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hompage</title>
+
+<style type = "text/css">
+	#myheader{
+		background-color: lightblue;
+		padding:40px;
+		text-align: center;
+	}
+	.info{
+		background-color: darkblue;
+		padding:10px;
+
+	}
+	.info2{
+		font-size: 44pt;
+		color:yellow;
+	}
+
+	span{
+		color:red;
+	}
+	.extra span{
+		color:inherit;
+	}
+	li em{font-weight: line-through;}
+	h1, em{text-decoration: underline;}
+</style>
+</head>
+<body>
+	<h1 style="color:blue;">New HTML5 Input Types Demo</strong></h1>
+	<h1 id = "myheader">his form demonstrates the new HTML5 input types and the placehoder, required and autofocus attributes.</h1>
+
+	<form action = "/action_page.php">
+	<p><label>Color:
+	<input type = "color" autofocus/>
+	</label></p>
+
+	<p><em> Date:</em>
+	<input type = "date" name="date" value = "mm/dd/yyyy">(yyyy-mm-dd)
+    </p>
+
+	<p calss= "info"> Email:</p>
+	<input type = "email" name = "email" placeholder="name@domain.com"required>(name@domain.com)</p>
+
+
+	<p id ="myheader"> Number:
+	<input type = "number" id = "quantity" name = "quantity" min = "0" max = "7" value = "4">(Enter a number between 0 and 7)</p>
+
+	<p class = "info2">Range:0
+	<input type = "range" id= "vol" name = "vol" min = "0" max = "20">20</p>
+
+	<p class="extra" style="color:green;"> Search:
+	<input type = "search" id = "search" name = "Search" placeholder="search query"></p>
+
+	<p><span> Time:</span>
+	<input type = "time" id = "appt" name = "appt">(hh:mm)</p>
+
+	<li>Piazza<em>with mushrooms</em></li>
+
+	<input type = "submit" value = "Submit">
+	<input type = "reset" value = "Clear">
+</form></body>
