@@ -1,0 +1,36 @@
+body		{font-family:arial, sans-serif;}
+	nav			{font-weight: bold;
+					color: white;
+					border: 2px solid royalblue;
+					text-align: center;
+					width: 10em;
+					background-color: royalblue;}
+	nav ul		{display: none;
+				list-style:none;
+				margin: 0;
+				padding:0;
+                margin-top: 50px;
+		margin-left: 80px;
+		background-color: lightblue;
+		width: 100px;
+		position: absolute;}
+	nav:hover ul{display: block;}
+				p.dotted{border-style: dotted}
+	nav ul li	{border-top: 2px solid royalblue;
+				background-color: white;
+				width:10 em;
+				color: black;
+                background-color: orange;
+		margin-top: 90px;
+		padding-bottom: 50px;
+		border-right: 30px;}
+	nav ul li:hover {background-color: powderblue;}
+					{text-decoration: none;}
+
+	body{background-color: pink;}
+	@media screen and (min-width: 480px){
+		body{
+			background-color: lightseagreen;
+		}
+	}
+
